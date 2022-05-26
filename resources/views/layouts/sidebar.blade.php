@@ -3,7 +3,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
         <li class="nav-item">
-            <a class="nav-link " href="index.html">
+            <a class="nav-link " href="dashboard">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>
@@ -12,7 +12,7 @@
         <li class="nav-heading">Master</li>
         <li class="nav-item">
             {{-- class="bx bxl-apple ms-auto" gunakan untuk menambah icon --}}
-            <a class="nav-link collapsed" data-bs-target="#components-nav"  href="#">
+            <a class="nav-link collapsed" data-bs-target="#components-nav"  href=" {{ route('kategori.index')}} ">
                 <i class="bi bi-layers-fill"></i><span>Kategori</span><i></i>
             </a>
             <a class="nav-link collapsed" data-bs-target="#components-nav"  href="#">
@@ -48,7 +48,7 @@
         <li class="nav-heading">System</li>
         <li class="nav-item">
             {{-- class="bx bxl-apple ms-auto" gunakan untuk menambah icon --}}
-            <a class="nav-link collapsed" data-bs-target="#components-nav"  href="user">
+            <a class="nav-link collapsed" data-bs-target="#components-nav"  href="#">
                 <i class="bi bi-person"></i><span>User</span><i></i>
             </a>
             <a class="nav-link collapsed" data-bs-target="#components-nav"  href="#">
